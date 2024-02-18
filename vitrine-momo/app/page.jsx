@@ -11,14 +11,21 @@ function Home() {
         <div className="   w-full   font-mono text-sm ">
           <div className=" flex flex-col md:flex-row md:justify-around">
             <h1 className=" flex flex-row text-left text-[#484848] mt-5 ml-10 mb-4 text-4xl  md:text-5xl  lg:text-7xl lg:ml-20 lg:mb-10">
-              Multiservice <p className="text-[#f79b20]">Pro</p>
+              Hammam <p className="text-[#f79b20] ml-2"> Oriental</p>
             </h1>
             <div
-              className=" text-2xl   ml-10 md:ml-20 md:text-3xl
+              className=" text-l   ml-10 md:ml-20 md:text-xl
               text-[#484848] lg:text-3xl lg:items-center   mb-4 md:mt-5"
             >
-              <p className="mb-2 ">Pour tout vos travaux </p>{" "}
-              <p className="text-2xl">&#9990; : 07 52 06 31 20</p>{" "}
+              <p className="mb-2 ">
+                {" "}
+                Véritable moment de détente et de plaisir grâce à la chaleur
+                humide qu'il dégage. Permet d'éliminer efficacement les
+                fatigues, tension musculaires et d'évacuer le stress. Venez
+                profiter d'un moment détente totale. Avec un verre de thé à la
+                menthe et une confiserie orientale offerts.{" "}
+              </p>{" "}
+              <p className="text-2xl">&#9990; : 06 03 74 39 23</p>{" "}
             </div>
           </div>
           <div className="bg-[#484848]">

@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="bg-gray-200 sticky top-0 z-50 ">
         <div className="text-2xl md:text-3xl flex flex-row vw-full justify-between bg-gray-200">
           <div className="flex flex-col justify-around md:w-1/3">
-            <div className="display flex flex-col justify-between justify-around">
+            {/* <div className="display flex flex-col justify-between justify-around">
               <Image
                 className="h-auto md:w-64 pl-10"
                 src="/carteVisiteMomoLogo-removebg-preview.png"
@@ -27,7 +27,7 @@ const Navbar = () => {
                 width={200}
                 height={200}
               />
-            </div>
+            </div> */}
           </div>
           <div className="flex-row vw-[100%] flex justify-around items-end md:w-2/3 md:mt-[1%]">
             {/* Menu Button */}

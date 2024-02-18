@@ -1,8 +1,8 @@
 import { useForm, ValidationError } from "@formspree/react";
-import ReCAPTCHA from "react-google-recaptcha";
+// import ReCAPTCHA from "react-google-recaptcha";
 function ContactForm() {
   const key = process.env.NEXT_PUBLIC_FORMSPREE;
-  const captchaKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
+  // const captchaKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
   const [state, handleSubmit] = useForm(key);
 
   if (state.succeeded) {
@@ -16,7 +16,7 @@ function ContactForm() {
       <div className="h-4 bg-[#f79b20]"></div>
       <div className=" p-8 rounded-lg shadow-md text-gray-700">
         <h1 className="text-2xl font-semibold mb-4">Contactez-nous : </h1>
-        <p className="mb-2 text-xl text-gray-700">&#9990; : 07 52 06 31 20</p>
+        <p className="mb-2 text-xl text-gray-700">&#9990; : 06 03 74 39 23</p>
         <p className="text-xl">Ou avec le formulaire :</p>
         <div className="h-1 bg-[#f79b20]"></div>
         <form onSubmit={handleSubmit}>
@@ -117,7 +117,7 @@ function ContactForm() {
             />
           </div>
           <div className="h-1 bg-[#f79b20]"></div>
-          <ReCAPTCHA sitekey={captchaKey} />
+          {/* <ReCAPTCHA sitekey={captchaKey} /> */}
           <button
             type="submit"
             className="bg-blue-500 text-white mt-2 py-2 px-4 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300"
